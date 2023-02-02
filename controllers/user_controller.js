@@ -33,7 +33,7 @@ getUserById({  _id: params.id })
             console.log(err);
             res.status(400).json(err);
         });
-    }, 
+    },
 
     createSecureServer({ body}, res) {
         User.create(body)
