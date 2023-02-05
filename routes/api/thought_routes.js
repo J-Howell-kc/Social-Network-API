@@ -6,10 +6,9 @@ const { getAllThoughts,
 getThoughtById,
 createThought,
 updateThought,
-updateThought,
 deleteThought,
 createReaction,
-deleteReaction } = require("../../comntrollers/thought-controller");
+deleteReaction } = require("../../controllers/thought_controller");
 
 //Thoughts
 

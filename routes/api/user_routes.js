@@ -7,7 +7,7 @@ createUser,
 updateUser,
 deleteUser,
 addFriend,
-deleteFriend } = require("../../controllers/user-controller");
+deleteFriend } = require("../../controllers/user_controller");
 
 // users
 
