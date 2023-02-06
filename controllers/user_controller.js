@@ -10,8 +10,8 @@ const userController = {
       });
   },
 
-  getUserById() {
-    User.findOne({ _id: params.id })
+  getUserById(req, res) {
+    User.findOne({ _id: req.params.id })
       .populate({
         path: "thoughts",
         select: "-__v",
@@ -36,7 +36,7 @@ const userController = {
   createUser({ body }, res) {
     User.create(body)
       .then((dbUserData) => res.json(dbUserData))
-      .catch((err = res.status(400).json(err)));
+      .catch((err => res.status(400).json(err)));
   },
 
   updateUser({ params, body }, res) {
@@ -46,7 +46,7 @@ const userController = {
           res.status(404).json({ message: "Invalid User Id." });
           return;
         }
-        res, json(dbUserData);
+        res.json(dbUserData);
       })
       .catch((err) => res.status(400).json(err));
   },
