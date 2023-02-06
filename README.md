@@ -41,4 +41,6 @@ https://github.com/https:/github.com/J-Howell-kc <br/>
 Feel free to direct any questions to howell_j@hotmail.com. Thanks.
 
 ## Screenshot
-![screenshot](N/A, videos here: https://drive.google.com/file/d/1pjO4YHJD32omB9QKLEJjgeV8Wmd5GGfx/view);
+![screenshot](N/A, videos here: https://drive.google.com/file/d/1pjO4YHJD32omB9QKLEJjgeV8Wmd5GGfx/view ,
+https://drive.google.com/file/d/1VCcNzcoGz3zzMkdsxJJVelu8d2PjDziG/view ,
+https://drive.google.com/file/d/1esD7a2FUkuT5ih-lz3Hp2EOSxyGEn_ub/view);
