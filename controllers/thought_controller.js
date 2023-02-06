@@ -38,7 +38,7 @@ createThought ({ body}, res) {
     })
     .then(dbUserData => {
         if (!dbUserData) {
-            res.status(404).json({ message:'Invalid User Id.'});
+            res.status(404).json({ message: "Invalid Id." });
             return;
         }
         res.json(dbUserData)
@@ -97,7 +97,7 @@ createReaction({ params, body }, res ) {
 },
 
 deleteReaction({ params }, res ) {
-    Thought.findOneAndDelete({ _id: params.thoughtId }, 
+    Thought.findOneAndUpdate({ _id: params.thoughtId }, 
         { $pull: {reactions: { reactionId: params.reactionId } } } ,
         {new: true })
     .then(dbThoughtData => {
